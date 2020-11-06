@@ -39,6 +39,8 @@ Note: an error occurs if there is something fishy about the WAV file. I always g
 
 It seems Windows does not support C++ std::thread so it is very difficult to get the cross-platform OpenAL libraries [or any other concurrent or asyncronous tasks] working via non-platform-specific C++ code. This is exactly where Ada shines. This package is a non-platform-specific Ada code that compiles on Windows as well as OSX and Linux.
 
+This package is now used in my two flagship games: AdaGate and AdaVenture (also on github).
+
 ========================================================
 
 ## Examples:
