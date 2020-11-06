@@ -11,7 +11,10 @@ https://github.com/fastrgv/Portable-Sound/releases/download/v1.0.0/aoa6nov20.7z
 
 
 **ver 1.0.0 -- 05nov2020**
+
 * Initial release.
+
+* Update 6nov: added DLL to example directory.
 
 
 ## Description
