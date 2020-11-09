@@ -1,4 +1,5 @@
 
+rem This compiles example code on Windows...
 rem uses 64-bit AdaCore GNAT compiler in default location
 
 del *.o
