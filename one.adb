@@ -12,7 +12,7 @@ procedure one is
 
 	linestr: string(1..80);
 	last: natural;
-	choir: glint;
+	music: glint;
 
 begin
 
@@ -25,19 +25,19 @@ if ada.command_line.argument_count = 1 then
 
 		snd4ada.initSnds;
 
-		choir:=snd4ada.initLoop( 
+		music:=snd4ada.initLoop( 
 			interfaces.c.Strings.New_string(title));
 
 
 		put_line("Hit <enter> to begin");
 		get_line(linestr,last);
 
-		snd4ada.playLoop(choir);
+		snd4ada.playLoop(music);
 
 		put_line("hit <enter> to end");
 		get_line(linestr,last);
 
-		snd4ada.stopLoop(choir);
+		snd4ada.stopLoop(music);
 
 		termSnds;
 
