@@ -39,7 +39,7 @@ if ada.command_line.argument_count = 1 then
 
 		snd4ada.stopLoop(music);
 
-		termSnds;
+		snd4ada.termSnds;
 
 	end; --declare
 
