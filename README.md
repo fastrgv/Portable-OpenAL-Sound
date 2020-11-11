@@ -2,7 +2,7 @@
 
 Here is a link to the latest release, including all source:
 
-https://github.com/fastrgv/Portable-Sound/releases/download/v1.0.0/aoa6nov20.7z
+https://github.com/fastrgv/Portable-Sound/releases/download/v1.0.0/aoa11nov20.7z
 
 
 
@@ -15,6 +15,9 @@ https://github.com/fastrgv/Portable-Sound/releases/download/v1.0.0/aoa6nov20.7z
 * Initial release.
 
 * Update 6nov: added DLL to example directory.
+
+* Update 11nov: added C++ example.
+
 
 
 ## Description
@@ -42,13 +45,21 @@ It is now used in my two flagship games: AdaGate and AdaVenture (also on github)
 
 ========================================================
 
-## Examples:
+## Ada Examples:
 
 See ./adaExample/one.adb
 
 See ./adaExample/two.adb
 
 The examples come with 3 compilation scripts: lcmp.sh, ocmp.sh, wcmp.bat
+
+## C++ Examples
+
+See ./cppExample/two.cpp
+
+This comes with scripts for linux and Windows. It shows how to use
+the Ada package from a C++ main.
+
 
 --------------------------
 ## License:
