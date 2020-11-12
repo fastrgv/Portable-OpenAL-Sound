@@ -18,6 +18,9 @@ https://github.com/fastrgv/Portable-Sound/releases/download/v1.0.0/aoa11nov20.7z
 
 * Update 11nov: added C++ example.
 
+* Update 12nov: added W64,OSX build scripts + EXEs to C++ example.
+
+
 
 
 ## Description
