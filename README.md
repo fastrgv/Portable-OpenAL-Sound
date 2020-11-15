@@ -40,7 +40,7 @@ It plays WAV files, via OpenAL, on Windows, OSX, and linux platforms.
 
 It is suitable for any Ada application that needs music, sound loops or transient sound effects; eg. games.
 
-15nov2020 update: added same design implemented in C++:
+### 15nov2020 update: added same design implemented in C++:
 OpenAL sound using Pthreads for C++ apps. 
 
   * Download: coa15nov20.7z using link above.
