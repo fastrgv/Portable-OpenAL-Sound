@@ -42,7 +42,8 @@ It is suitable for any Ada application that needs music, sound loops or transien
 
 15nov2020 update: added same design implemented in C++:
 OpenAL sound using Pthreads for C++ apps. 
-Download: coa15nov20.7z using link above.
+
+  * Download: coa15nov20.7z using link above.
 
 
 --------------------------------------------------------
