@@ -7,7 +7,7 @@ https://github.com/fastrgv/Portable-Sound/releases/download/v1.0.0/aoa12nov20.7z
 
 -------------------------------------------------------------------------------------------
 
-Here is the link to a C++ version, including all source, for C++ apps:
+Here is the link to a C++ implementation, including all source, for C++ apps:
 
 https://github.com/fastrgv/Portable-Sound/releases/download/v1.0.0/coa15nov20.7z
 
