@@ -9,7 +9,7 @@ https://github.com/fastrgv/Portable-Sound/releases/download/v1.0.0/aoa12nov20.7z
 
 Here is the link to a C++ implementation using Pthreads, including all source, for C++ apps:
 
-https://github.com/fastrgv/Portable-Sound/releases/download/v1.0.0/coa15nov20.7z
+https://github.com/fastrgv/Portable-OpenAL-Sound/releases/download/v1.0.0/coa20nov20.7z
 
 
 -------------------------------------------------------------------------------------------
