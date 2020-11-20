@@ -58,8 +58,9 @@ Note: an error occurs if there is something fishy about the WAV file. I always g
 ========================================================
 ## What is so great about this package?
 
-This package is a non-platform-specific Ada code that compiles on Windows as well as OSX and Linux.
-It is now used in my two flagship games: AdaGate and AdaVenture (on GitHub & SourceForge).
+These packages are non-platform-specific Ada/C++ code that compiles on Windows as well as OSX and Linux.
+The Ada version is now used in my two flagship games: AdaGate and AdaVenture (on GitHub & SourceForge).
+The C++ version is used in RufasGate.
 
 ========================================================
 
