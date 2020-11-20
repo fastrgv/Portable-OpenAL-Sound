@@ -2,7 +2,7 @@
 
 Here is a link to the latest release of the Ada version, including all source:
 
-https://github.com/fastrgv/Portable-Sound/releases/download/v1.0.0/aoa12nov20.7z
+https://github.com/fastrgv/Portable-OpenAL-Sound/releases/download/v1.0.0/aoa12nov20.7z
 
 
 -------------------------------------------------------------------------------------------
