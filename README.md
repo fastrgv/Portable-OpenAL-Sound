@@ -72,7 +72,7 @@ See ./adaExample/two.adb
 
 The examples come with 3 compilation scripts: lcmp.sh, ocmp.sh, wcmp.bat
 
-## C++ Examples
+## C++ Examples Using Ada Package:
 
 See ./cppExample/two.cpp
 
