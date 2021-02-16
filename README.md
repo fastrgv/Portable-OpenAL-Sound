@@ -4,14 +4,6 @@ Here is a link to the latest release of the Ada version, including all source:
 
 https://github.com/fastrgv/Portable-OpenAL-Sound/releases/download/v1.0.0/aoa12nov20.7z
 
-
--------------------------------------------------------------------------------------------
-
-Here is the link to a C++ implementation using Pthreads, including all source, for C++ apps:
-
-https://github.com/fastrgv/Portable-OpenAL-Sound/releases/download/v1.0.0/coa20nov20.7z
-
-
 -------------------------------------------------------------------------------------------
 
 
@@ -24,8 +16,6 @@ https://github.com/fastrgv/Portable-OpenAL-Sound/releases/download/v1.0.0/coa20n
 * Initial release.
 
 * Update 6nov: added DLL to example directory.
-
-* Update 11nov: added C++ example.
 
 * Update 12nov: added W64,OSX build scripts + EXEs to C++ example.
 
@@ -40,12 +30,6 @@ It plays WAV files, via OpenAL, on Windows, OSX, and linux platforms.
 
 It is suitable for any Ada application that needs music, sound loops or transient sound effects; eg. games.
 
-------------------------------------------------------------------
-Added a C++ version with similar design using OpenAL & Pthreads:
-
-  * Download: coa20nov20.7z using link above.
-
-
 --------------------------------------------------------
 ## Usage:
 
@@ -58,9 +42,8 @@ Note: an error occurs if there is something fishy about the WAV file. I always g
 ========================================================
 ## What is so great about this package?
 
-These packages are non-platform-specific Ada/C++ code that compiles on Windows as well as OSX and Linux.
+These packages are non-platform-specific Ada code that compiles on Windows as well as OSX and Linux.
 The Ada version is now used in my two flagship games: AdaGate and AdaVenture (on GitHub & SourceForge).
-The C++ version is used in RufasGate.
 
 ========================================================
 
