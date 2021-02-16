@@ -1,6 +1,6 @@
 ![screenshot](https://github.com/fastrgv/Portable-Sound/blob/main/lovelaceClef.png)
 
-Here is a link to the latest release, including all source & resources:
+Here is a link to the latest release, including all source, examples & resources:
 
 https://github.com/fastrgv/Portable-OpenAL-Sound/releases/download/v1.0.0/aoa12nov20.7z
 
