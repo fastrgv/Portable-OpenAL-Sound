@@ -6,7 +6,7 @@ del *.o
 del obj\*
 
 rem build oal.o:
-c:\gnat64\2020\bin\g++ ^
+g++ ^
 	-c ..\OalBinding\oal.cpp ^
  -std=c++11 ^
  -fpermissive ^
@@ -14,7 +14,7 @@ c:\gnat64\2020\bin\g++ ^
  -I..\OalBinding\incoal
 
 
-c:\gnat64\2020\bin\gnatmake %1 ^
+gnatmake %1 ^
  -D obj ^
  -m64 ^
  -I.. -I..\OalBinding ^
