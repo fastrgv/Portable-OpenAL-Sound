@@ -1,0 +1,83 @@
+V "GNAT Lib v2020"
+M P W=b
+A -O3
+A -gnat12
+P ZX
+
+RN
+RV NO_IO
+
+U two%b			two.adb			a4e8f60e NE OO SU IL
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W snd4ada%s		snd4ada.adb		snd4ada.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20200228061809 76789da1 ada%s
+D a-except.ads		20200228061809 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200228061809 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061809 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061809 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061809 aef4d56d ada.text_io%s
+D a-unccon.ads		20200228061809 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200228061809 5ab55268 interfaces%s
+D i-c.ads		20200228061809 c624fa43 interfaces.c%s
+D i-cstrin.ads		20200228061809 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20200228061809 e53d8b8e interfaces.c_streams%s
+D snd4ada.ads		20201103222912 c7855f57 snd4ada%s
+D system.ads		20200228061809 4635ec04 system%s
+D s-crtl.ads		20200228061809 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061809 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061809 078245e4 system.file_control_block%s
+D s-parame.ads		20200228061809 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060539 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061809 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061809 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061809 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061809 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200228061809 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060539 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061809 1b7d22d2 system.wch_con%s
+D text_io.ads		20200228061809 21b2c898 text_io%s
+D two.adb		20201109004749 b0e6965d two%b
+G a e
+G c Z b b [two standard 8 11 none]
+G r c none [two standard 8 11 none] [initsnds snd4ada 30 14 none]
+G r c none [two standard 8 11 none] [initloop snd4ada 37 13 none]
+G r c none [two standard 8 11 none] [playloop snd4ada 44 14 none]
+G r c none [two standard 8 11 none] [stoploop snd4ada 51 14 none]
+G r c none [two standard 8 11 none] [termsnds snd4ada 27 14 none]
+X 6 a-textio.ads
+481U14*Get_Line 27|26s9 32s9 37s9
+508U14*Put_Line 27|25s9 31s9 36s9
+X 8 interfac.ads
+38K9*Interfaces 184e15 27|3r6 4r6 14r22 22r34 23r33
+X 9 i-c.ads
+18K20*C 232e17 27|3w17 4r17 14r33 22r45 23r44
+35I9*int<integer> 27|14r35
+X 10 i-cstrin.ads
+36K22*Strings 106e25 27|4w19 22r47 23r46
+47P9*chars_ptr
+60V13*New_String{47P9} 27|22s55 23s54
+X 12 snd4ada.ads
+23K9*snd4ada 54e12 27|2w6 20r9 22r16 23r15 28r9 29r9 34r9 39r9 41r9
+27U14*termSnds 28i<c,termSnds>25 27|41s17
+30U14*initSnds 31i<c,initSnds>25 27|20s17
+33V13*initSnd{9|35I9} 35i<c,initSnd>25
+37V13*initLoop{9|35I9} 39i<c,initLoop>25 27|22s24 23s23
+41U14*playSnd 42i<c,playSnd>25
+44U14*playLoop 45i<c,playLoop>25 27|28s17 29s17
+47U19*stopLoops 48i<c,stopLoops>25
+51U14*stopLoop 52i<c,stopLoop>25 27|34s17 39s17
+X 26 text_io.ads
+24K9*Text_IO=24:29 27|1w6 1r19
+X 27 two.adb
+8U11*two 8b11 43l5 43t8
+12a9 linestr{string} 26m18 32m18 37m18
+13i9 last{natural} 26m26 32m26 37m26
+14i9 choir{9|35I9} 22m9 29r26 39r26
+14i16 kick{9|35I9} 23m9 28r26 34r26
+15a9 title{string} 22r66
+16a9 titl2{string} 23r65
+
