@@ -4,7 +4,6 @@
 rm *.o
 rm obj/*
 
-export PATH=$HOME/opt/GNAT/2020/bin:$PATH
 
 # first, create oal.o:
 g++ ../OalBinding/oal.cpp -c \
