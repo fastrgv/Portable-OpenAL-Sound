@@ -16,7 +16,6 @@ g++ ^
 
 gnatmake %1 ^
  -D obj ^
- -m64 ^
  -I.. -I..\OalBinding ^
  -I..\OalBinding\incoal ^
  -largs oal.o openal32.dll ^
