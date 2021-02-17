@@ -10,6 +10,11 @@ https://github.com/fastrgv/Portable-OpenAL-Sound/releases/download/v1.0.0/aoa12n
 # Portable Sound -- using Ada tasking and OpenAL
 
 
+**ver 1.0.1 -- 17feb2021**
+
+* Added important guard statement for robustness.
+
+
 
 **ver 1.0.0 -- 05nov2020**
 
@@ -69,6 +74,14 @@ the Ada package from a C++ main.
 
 
 --------------------------
+
+## SoundFiles
+Kick & choir sound is from freesound.org, so is covered by the Creative Commons Noncommercial License;  see
+http://creativecommons.org/licenses/by-nc/3.0/legalcode/
+
+
+
+
 ## License:
 
 
