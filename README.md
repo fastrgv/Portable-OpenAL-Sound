@@ -88,7 +88,7 @@ http://creativecommons.org/licenses/by-nc/3.0/legalcode/
 This app is covered by the GNU GPL v3 as indicated in the sources:
 
 
- Copyright (C) 2020  <fastrgv@gmail.com>
+ Copyright (C) 2021  <fastrgv@gmail.com>
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
