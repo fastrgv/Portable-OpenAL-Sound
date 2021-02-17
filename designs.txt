@@ -1,0 +1,14 @@
+My Design Goals (for Potential Contributors):
+
+I dislike both Microsoft and Apple because of the freedoms and privacy they deny me, and I fully support the F.S.F [Free Software Foundation].  Thusly, I choose to minimize my entanglement with these OS's.  Still, I would like to reach their large audiences with my programs.
+
+My design goals are to 
+A) require NOTHING of mere users, and 
+B) for rebuilders/developers, require only that they install Ada on their machines.
+
+Specifically, I do not require Windows users to install MINGW.
+
+Furthermore, I don't require users to install nonstandard libraries or 3rd party utilities in order to execute my apps.
+
+(fastrgv@gmail.com)
+
