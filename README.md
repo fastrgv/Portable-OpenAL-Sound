@@ -76,7 +76,7 @@ the Ada package from a C++ main.
 --------------------------
 
 ## SoundFiles
-Kick & choir sound is from freesound.org, so is covered by the Creative Commons Noncommercial License;  see
+Kick & choir sounds are from freesound.org, so are covered by the Creative Commons Noncommercial License;  see
 http://creativecommons.org/licenses/by-nc/3.0/legalcode/
 
 
