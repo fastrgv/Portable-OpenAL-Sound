@@ -38,6 +38,9 @@ It is suitable for any Ada application that needs music, sound loops or transien
 --------------------------------------------------------
 ## Usage:
 
+The proper command to extract the archive and maintain the directory structure is "7z x filename".
+
+
 See the simple interface description in file snd4ada.ads.
 
 Generally, when you initialize a sound or soundloop, you specify its file name and retrieve an integer "key" that is used to play it sometime later.
