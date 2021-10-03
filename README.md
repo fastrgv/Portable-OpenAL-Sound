@@ -36,9 +36,7 @@ Type "7z x filename.7z" to extract the archive.
 
 ## Description
 
-This is a cross-platform sound-playing package for Ada apps that can asynchronously start and stop music loops, as well as initiate transient sounds.
-
-It plays WAV files, via OpenAL, on Windows, OSX, and linux platforms.
+This is a cross-platform sound-playing package for Ada apps that can asynchronously start and stop music loops, as well as initiate transient sounds. It plays WAV files, via OpenAL, and runs on Windows, OSX, and linux platforms. Nice examples are included.
 
 It is suitable for any Ada application that needs music, sound loops or transient sound effects; eg. games.
 
