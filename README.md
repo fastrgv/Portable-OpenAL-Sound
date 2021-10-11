@@ -59,7 +59,7 @@ See the simple interface description in file snd4ada.ads.
 
 Generally, when you initialize a sound or soundloop, you specify its file name and retrieve an integer "key" that is used to play it sometime later.
 
-Note: an error occurs if there is something fishy about the WAV file. I always get good results with WAV files output from, or processed through "sox".
+Note: an error occurs whenever there is something fishy about the WAV file. I always get good results with WAV files output from, or processed through "sox".
 
 ========================================================
 ## What is so great about this package?
