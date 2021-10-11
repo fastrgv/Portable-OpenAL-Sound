@@ -64,7 +64,7 @@ Note: an error occurs whenever there is something fishy about the WAV file. I al
 ========================================================
 ## What is so great about this package?
 
-These packages are non-platform-specific Ada code that compiles on Windows as well as OSX and Linux.
+This package is a non-platform-specific Ada code that compiles on Windows as well as OSX and Linux.
 The Ada version is now used in my two flagship games: AdaGate and AdaVenture (on GitHub & SourceForge).
 
 Please also read:
