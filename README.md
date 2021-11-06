@@ -32,8 +32,8 @@ Type "7z x filename.7z" to extract the archive.
 
 ## Description
 
-This is a partial Ada binding to OpenAL, together with a client Ada package that can 
-play WAV files on Windows, OSX, and Linux, using Ada tasking and OpenAL libraries.
+This is an Ada utility that can play WAV files on Windows, OSX, and Linux, using 
+Ada tasking and OpenAL libraries. It includes a partial Ada binding to OpenAL.
 
 It provides sound-playing capabilities for Ada apps to 
 	* asynchronously start and stop music/sound loops, 
