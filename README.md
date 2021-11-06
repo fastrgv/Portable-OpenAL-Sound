@@ -32,8 +32,9 @@ Type "7z x filename.7z" to extract the archive.
 
 ## Description
 
-This package is a thick, cross-platform Ada binding to OpenAL.
-It can play WAV files on Windows, OSX, and Linux, using Ada tasking and OpenAL libraries.
+This is a cross-platform, partial Ada binding to OpenAL, together
+with a client Ada package that can play WAV files on Windows, OSX, and Linux, 
+using Ada tasking and OpenAL libraries.
 
 It provides sound-playing capabilities for Ada apps to 
 	* asynchronously start and stop music/sound loops, 
@@ -41,7 +42,8 @@ It provides sound-playing capabilities for Ada apps to
 
 Examples for each O.S. are included.
 
-It is suitable for any Ada application that requires background or transient sound effects; eg. games, simulations.
+It is suitable for any Ada application that requires background or transient 
+sound effects; eg. games, simulations.
 
 There are no software dependencies; this package is self-contained.
 
