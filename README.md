@@ -37,7 +37,8 @@ play WAV files on Windows, OSX, and Linux, using Ada tasking and OpenAL librarie
 
 It provides sound-playing capabilities for Ada apps to 
 	* asynchronously start and stop music/sound loops, 
-	* and initiate transient sounds. 
+	* initiate transient sounds,
+	* allow unlimited sound concurrency.
 
 Examples for each O.S. are included.
 
