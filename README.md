@@ -14,19 +14,24 @@ Type "7z x filename.7z" to extract the archive.
 -------------------------------------------------------------------------------------------
 
 
+
 # Portable Sound -- using Ada tasking and OpenAL
 
 
 
+**ver 1.1.1 -- 26nov2021**
+
+* Added OSX example of a CPP main calling the Ada sound package.
+* Refined the build scripts in examples.
+
 **ver 1.1.0 -- 19oct2021**
+
 * Now builds on GPL-GNAT as well as all versions of AdaCore.
 
 **ver 1.0.1 -- 17feb2021**
 
 * Added important guard statement for robustness.
-
 * Update 6nov: added DLL to example directory.
-
 * Update 12nov: added W64,OSX build scripts + EXEs to C++ example.
 
 
@@ -35,17 +40,16 @@ Type "7z x filename.7z" to extract the archive.
 This is an Ada utility that can play WAV files on Windows, OSX, and Linux, using 
 Ada tasking and OpenAL libraries. It includes a partial Ada binding to OpenAL.
 
-It provides sound-playing capabilities for Ada apps to 
-	* asynchronously start and stop music/sound loops, 
-	* initiate transient sounds,
-	* allow unlimited sound concurrency.
+It provides sound-playing capabilities for Ada apps to:
+
+* asynchronously start and stop music/sound loops, 
+* initiate transient sounds,
+* allow unlimited sound concurrency.
 
 Examples for each O.S. are included.
 
-It is suitable for any Ada application that requires background or transient 
-sound effects; eg. games, simulations.
-
-There are no software dependencies; this package is self-contained.
+* Suitable for any Ada application that requires background or transient sound effects; eg. games, simulations.
+* There are no software dependencies; this package is self-contained.
 
 --------------------------------------------------------
 ## Usage:
@@ -56,30 +60,31 @@ See the simple interface description in file snd4ada.ads.
 
 Generally, when you initialize a sound or soundloop, you specify its file name and retrieve an integer "key" that is used to play it sometime later.
 
-Note: an error occurs whenever there is something fishy about the WAV file. I always get good results with WAV files output from, or processed through "sox".
+Note: an error occurs whenever there is something fishy about the WAV file. I always get good results with WAV files processed through "sox".
 
 ========================================================
 ## What is so great about this package?
 
-This package is a non-platform-specific Ada code that compiles on Windows as well as OSX and Linux. It is now used in my two flagship games: AdaGate and AdaVenture (on GitHub & SourceForge). 
+This package is a non-platform-specific Ada code that compiles & runs on Windows, OSX and Linux. It is now used in my two flagship games: AdaGate and AdaVenture (on GitHub, SourceForge, itch.io, GameJolt, IndieDB). 
 
 
 ========================================================
 
 ## Ada Examples:
 
-See ./adaExample/one.adb
 See ./adaExample/two.adb
 
-The examples come with 3 compilation scripts: lcmp.sh, ocmp.sh, wcmp.bat
+The examples come with 6 compilation scripts: 
+
+	* lcmp.sh, gcmp.sh (for linux)
+	* ocmpAC.sh, ocmpGN.sh (for OSX)
+	* wcmp32.bat, wcmp64.bat (for Windows)
 
 ## C++ Examples
 
 See ./cppExample/two.cpp
 
-This comes with scripts for linux and Windows. It shows how to use
-the Ada package from a C++ main. If any Mac experts out there
-can show me how to build on OSX, I would like to include it.
+This comes with scripts for OSX, linux and Windows. It shows how to use the Ada package from a C++ main. 
 
 ---------------------------------------
 
