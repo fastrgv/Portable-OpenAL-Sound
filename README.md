@@ -89,9 +89,7 @@ This comes with scripts for OSX, linux and Windows. It shows how to use the Ada 
 ---------------------------------------
 
 ## SoundFiles
-Kick & choir sound is from freesound.org, so is covered by the Creative Commons Noncommercial License;  see
-http://creativecommons.org/licenses/by-nc/3.0/legalcode/
-
+Kick & choir sounds are from freesound.org, and are covered by the Creative Commons CC0 License.
 
 
 ## License:
