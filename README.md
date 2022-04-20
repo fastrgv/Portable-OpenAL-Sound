@@ -67,6 +67,9 @@ Note: an error occurs whenever there is something fishy about the WAV file. I al
 
 This package is a non-platform-specific Ada code that compiles & runs on Windows, OSX and Linux. It is now used in my two flagship games: AdaGate and AdaVenture (on GitHub, SourceForge, itch.io, GameJolt, IndieDB). 
 
+Open source Ada developers are welcome to help improve or extend this app.
+Developer or not, send comments, suggestions or questions to:
+fastrgv@gmail.com
 
 ========================================================
 
