@@ -2,7 +2,7 @@
 
 Here is a link to the latest release, including all source, examples & resources:
 
-https://github.com/fastrgv/Portable-OpenAL-Sound/releases/download/v1.1.1/ao26nov21.7z
+https://github.com/fastrgv/Portable-OpenAL-Sound/releases/download/v1.1.2/ao16sep22.7z
 
 
 Type "7z x filename.7z" to extract the archive.
