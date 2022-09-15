@@ -17,6 +17,10 @@ Type "7z x filename.7z" to extract the archive.
 
 # Portable Sound -- using Ada tasking and OpenAL
 
+**ver 1.1.2 -- 16sep2022**
+* Corrected some details of sound licenses.
+* Now using GNU Ada rather than defunct AdaCore compiler.
+
 
 
 **ver 1.1.1 -- 26nov2021**
