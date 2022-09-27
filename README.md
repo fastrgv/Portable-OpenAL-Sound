@@ -2,7 +2,7 @@
 
 Here is a link to the latest release, including all source, examples & resources:
 
-https://github.com/fastrgv/Portable-OpenAL-Sound/releases/download/v1.1.2/ao16sep22.7z
+https://github.com/fastrgv/Portable-OpenAL-Sound/releases/download/v1.1.3/aoal30sep22.7z
 
 
 Type "7z x filename.7z" to extract the archive.
@@ -89,9 +89,9 @@ See ./adaExample/two.adb
 
 The examples come with 6 compilation scripts: 
 
-	* lcmp.sh, gcmp.sh (for linux)
-	* ocmpAC.sh, ocmpGN.sh (for OSX)
-	* wcmp32.bat, wcmp64.bat (for Windows)
+	* lcmp.sh (for linux)
+	* ocmp.sh (for OSX)
+	* setpath64.bat then wcmp64.bat (for Windows)
 
 ## C++ Examples
 
