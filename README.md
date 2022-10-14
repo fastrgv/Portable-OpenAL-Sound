@@ -87,7 +87,7 @@ fastrgv@gmail.com
 
 See ./adaExample/two.adb
 
-The examples come with 6 compilation scripts: 
+The examples come with 3 compilation scripts: 
 
 	* lcmp.sh (for linux)
 	* ocmp.sh (for OSX)
