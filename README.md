@@ -15,7 +15,20 @@ Type "7z x filename.7z" to extract the archive.
 
 
 
-# Portable Sound -- using Ada tasking and OpenAL
+
+another link:
+https://sourceforge.net/projects/portable-openal-sound/
+
+-----------------------------------------------------------
+
+
+# Portable Ada Sound -- using Ada tasking and OpenAL
+## Sound utility for Window, OSX, & linux.
+
+
+**ver 1.1.4 -- 06oct2023**
+
+* Updated support of Mac/OSX.
 
 
 **ver 1.1.3 -- 30sep2022**
@@ -24,9 +37,9 @@ Type "7z x filename.7z" to extract the archive.
 
 
 **ver 1.1.2 -- 16sep2022**
+
 * Corrected some details of sound licenses.
 * Now using GNU Ada rather than defunct AdaCore compiler.
-
 
 
 **ver 1.1.1 -- 26nov2021**
@@ -45,9 +58,13 @@ Type "7z x filename.7z" to extract the archive.
 * Update 12nov: added W64,OSX build scripts + EXEs to C++ example.
 
 
-## Description
+## Brief Description
+Cross platform sound-playing utility for Ada apps with its own binding to OpenAL.
 
-This is an Ada utility that can play WAV files on Windows, OSX, and Linux, using 
+
+## Full Description
+
+This is a sound-playing utility for Ada that can play WAV files on Windows, OSX, and Linux, using 
 Ada tasking and OpenAL libraries. It includes a partial Ada binding to OpenAL.
 
 It provides sound-playing capabilities for Ada apps to:
@@ -61,10 +78,20 @@ Examples for each O.S. are included.
 * Suitable for any Ada application that requires background or transient sound effects; eg. games, simulations.
 * There are no software dependencies; this package is self-contained.
 
+* I am currently using it for sound in my flagship games:
+	* AdaGate
+	* AdaVenture
+	* CoterminalApps
+	* RufasCube
+	* etc.
+
+* Note that the same utility for C++ can be found at: https://sourceforge.net/projects/portable-cpp-sound-openal/
+
 --------------------------------------------------------
 ## Usage:
 
 The proper command to extract the archive and maintain the directory structure is "7z x filename".
+On OSX you can use Keka.
 
 See the simple interface description in file snd4ada.ads.
 
@@ -75,11 +102,12 @@ Note: an error occurs whenever there is something fishy about the WAV file. I al
 ========================================================
 ## What is so great about this package?
 
-This package is a non-platform-specific Ada code that compiles & runs on Windows, OSX and Linux. It is now used in my two flagship games: AdaGate and AdaVenture (on GitHub, SourceForge, itch.io, GameJolt, IndieDB). 
+This package is a non-platform-specific Ada code that compiles & runs on Windows, OSX and Linux. It is now used in my flagship games: RetroArcade, terminal SliderPuzzles, RufasCube, AdaGate and AdaVenture (on GitHub, SourceForge, itch.io, GameJolt, IndieDB). 
 
 Open source Ada developers are welcome to help improve or extend this app.
 Developer or not, send comments, suggestions or questions to:
 fastrgv@gmail.com
+
 
 ========================================================
 
@@ -93,6 +121,9 @@ The examples come with 3 compilation scripts:
 	* ocmp.sh (for OSX)
 	* setpath64.bat then wcmp64.bat (for Windows)
 
+Windows users, please read "gnuAdaOnWindows.txt".
+
+
 ## C++ Examples
 
 See ./cppExample/two.cpp
@@ -102,7 +133,12 @@ This comes with scripts for OSX, linux and Windows. It shows how to use the Ada 
 ---------------------------------------
 
 ## SoundFiles
-Kick & choir sounds are from freesound.org, and are covered by the Creative Commons CC0 License.
+mKickCC0 & choirCC3 sounds are from freesound.org, and are covered by the Creative Commons CC0/CC3 Licenses. Attribution of choirCC3.wav is "dobroide".
+
+
+## Getting a free Ada (& g++) compiler
+To find a recent Ada compiler;  eg. GNU-Ada...try this source:
+	https://github.com/alire-project/GNAT-FSF-builds/releases
 
 
 ## License:
@@ -111,7 +147,7 @@ Kick & choir sounds are from freesound.org, and are covered by the Creative Comm
 This app is covered by the GNU GPL v3 as indicated in the sources:
 
 
-Copyright (C) 2021  <fastrgv@gmail.com>
+Copyright (C) 2023  <fastrgv@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -125,4 +161,5 @@ GNU General Public License for more details.
 
 You may read the full text of the GNU General Public License
 at <http://www.gnu.org/licenses/>.
+
 
