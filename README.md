@@ -2,7 +2,7 @@
 
 Here is a link to the latest release, including all source, examples & resources:
 
-https://github.com/fastrgv/Portable-OpenAL-Sound/releases/download/v1.1.5/aoal6oct23.7z
+https://github.com/fastrgv/Portable-OpenAL-Sound/releases/download/v1.1.6/ao18feb24.7z
 
 
 Type "7z x filename.7z" to extract the archive.
@@ -31,7 +31,7 @@ https://sourceforge.net/projects/portable-openal-sound/
 ## Sound utility for Window, OSX, & linux.
 
 
-**ver 1.1.5 -- 18feb2024**
+**ver 1.1.6 -- 18feb2024**
 
 * Repaired some critical issues with program logic.
 * Added volume control.
