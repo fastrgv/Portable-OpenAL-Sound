@@ -31,6 +31,12 @@ https://sourceforge.net/projects/portable-openal-sound/
 ## Sound utility for Window, OSX, & linux.
 
 
+**ver 1.1.5 -- 18feb2024**
+
+* Repaired some critical issues with program logic.
+* Added volume control.
+
+
 **ver 1.1.4 -- 06oct2023**
 
 * Updated support of Mac/OSX.
