@@ -70,8 +70,7 @@ https://sourceforge.net/projects/portable-openal-sound/
 
 
 ## Brief Description
-Cross platform sound-playing utility for Ada apps with its own binding to OpenAL.
-
+A partial thick Ada binding to OpenAL; essentially a sound-playing utility for Ada apps.
 
 ## Full Description
 
