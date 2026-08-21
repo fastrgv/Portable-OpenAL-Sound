@@ -100,6 +100,19 @@ Examples for each O.S. are included.
 --------------------------------------------------------
 ## Usage:
 
+#### linux users note
+
+Before attempting to build apps with this library on linux 
+you might need to update your openAL libraries
+so that the link-step succeeds.
+
+Use the following commands:
+
+* sudo apt-get update
+* sudo apt-get install libopenal-dev
+------------------------------------------------------
+
+
 The proper command to extract the archive and maintain the directory structure is "7z x filename".
 On OSX you can use Keka.
 
